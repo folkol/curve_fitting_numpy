@@ -4,10 +4,10 @@ from scipy.stats.distributions import t
 
 x=np.array([1, 10, 100, 1000, 2000])
 
-cy=np.array([21, 217, 725, 1631, 1713])
-my=np.array([32, 137, 161, 168, 172])
-title='Contents: 10.000 x 0kb, Aspects: 0 x 0kb'
-filename='write1.png'
+cy=np.array([20, 188, 318, 1096, 816])
+my=np.array([24, 45, 55, 91, 92])
+title='Contents: 10.000 x 10.000kb, Aspects: 0 x 0kb'
+filename='write2.png'
 
 import matplotlib.pyplot as plt
 plt.plot(x,cy,'bo')
