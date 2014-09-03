@@ -19,10 +19,10 @@ def plot_figure(counter, line):
     plt.legend(loc='best')
     plt.xlabel('Number of threads', fontsize=10)
     plt.ylabel('Writes per sec', fontsize=10)
-    plt.axis([0, 20, 0, 1.1*max(y)])
+    plt.axis([0, 20, min(y) - 0.1*max(y), 1.1*max(y)])
     plt.grid()
     plt.title(title)
-    plt.savefig('test%d.png' % counter)
+    plt.savefig('plot_%d.png' % counter)
     plt.close()
 
 
