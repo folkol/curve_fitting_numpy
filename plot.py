@@ -7,15 +7,15 @@ from sys import stdin, argv
 def printUsage():
     print 'usage: python %s' % argv[0]
     print ''
-    print ('       This script will read data from stdin and write a'
-           '       cubic spline plot to plot.png')
+    print ('       This script will read data from stdin and write a '
+           'cubic spline plot to plot.png')
     print ''
     print '        The expected input format is:'
     print '            [Title of the graph]'
     print '            [a list of x values]'
     print '            (one or more) [a list of y values]'
     print ''
-    print ('       If you supply more than one line of y values, the'
+    print ('       If you supply more than one line of y values, the '
            'average will be used.')
 
 
